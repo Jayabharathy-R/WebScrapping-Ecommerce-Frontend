@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from "react";
-import axios from 'axios';
 import logo from './Amazon-logo.jpg';
 import './App.css';
 
