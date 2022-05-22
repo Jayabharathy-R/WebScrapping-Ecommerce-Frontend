@@ -2,21 +2,10 @@ import React,{useState,useEffect} from "react";
 import logo from './Amazon-logo.jpg';
 import './App.css';
 
-import {
-  Box,
- Typography,
-  Button,
-  Grid,
-  Card,
-  CardActions,
-  CardContent,
-  Rating
-} from '@mui/material';
 
 function App(){
   const[data,setData]=useState([]);
 
-  const value = 5;
 
   useEffect(()=>{
     //  axios.get("http://localhost:3002/WebScraping/getProduct", 
