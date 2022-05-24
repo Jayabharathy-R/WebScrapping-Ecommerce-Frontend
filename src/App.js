@@ -10,7 +10,7 @@ function App(){
   useEffect(()=>{
     //  axios.get("http://localhost:3002/WebScraping/getProduct", 
     //   { crossdomain: true })
-    fetch("http://localhost:3002/WebScraping/getProduct")
+    fetch("https://webscrapping-amazon.herokuapp.com/webScraping/getProduct")
       .then(res => res.json())
       .then(response => {
 
